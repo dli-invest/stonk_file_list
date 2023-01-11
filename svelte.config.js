@@ -8,8 +8,10 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({
-		})
+		adapter: adapter({})
+	},
+	paths: {
+		base: "/stonk_file_list"
 	}
 };
 
