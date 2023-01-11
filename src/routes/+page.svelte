@@ -26,4 +26,7 @@ onMount(async () => {
     <li>Empty list</li>
     {/each}
 </ul>
+
+<a href="./rss">Feed</a>
+<a href="./rss.xml">Feed stuff</a>
 </main>
